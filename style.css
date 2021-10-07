@@ -1,0 +1,65 @@
+#bloc_img{
+    width: 200px;
+}
+
+.button_group {
+    margin-top: 82px;
+}
+
+.score {
+    margin-top: 50px;
+}
+
+#compteurs {
+    margin-top: 44px;
+}
+
+.restart {
+    margin-top: 60px;
+}
+
+.title {
+    font-family: 'Akronim', cursive;
+}
+
+#button {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+#btn-winner {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+#btn-loose {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+@media (max-width: 991.98px) { 
+    bloc_img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .button_group {
+        margin-top: 44px;
+    }
+
+    .score {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #compteurs {
+        margin-top: 16px;
+    }
+
+    #bloc_img {
+        width: 95px;
+    }
+ }
